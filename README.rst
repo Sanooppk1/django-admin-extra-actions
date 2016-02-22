@@ -1,4 +1,3 @@
-.. |...| unicode:: U+2026   .. ellipsis
 
 ===================
 django-admin-extra-actions
@@ -43,7 +42,5 @@ Example Usage
 
     admin.site.register(Vehicle, VehicleAdmin)
 
-.. image:: https://raw.githubusercontent.com/sayonetech/django-admin-multioption-filters/master/screehshots/multifilter.png
-
-
+.. image:: https://github.com/Sanooppk1/django-admin-extra-actions/blob/master/screehshots/screenshotforextraoption.png
 
