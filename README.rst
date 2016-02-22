@@ -42,7 +42,7 @@ Example Usage
 
     admin.site.register(Vehicle, VehicleAdmin)
 
-.. text:: Now you can see the action drop-down in admin with the publish and un-publish options default.
+- Now you can see the action drop-down in admin with the publish and un-publish options default.
 
 .. image:: https://github.com/Sanooppk1/django-admin-extra-actions/blob/master/screehshots/screenshotforextraoption.png
 
