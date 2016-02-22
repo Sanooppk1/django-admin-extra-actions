@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.utils.translation import ugettext as _
+from django.db.models.fields import FieldDoesNotExist
 
 
 def make_published(modeladmin, request, queryset):
@@ -25,7 +26,7 @@ class ExtraOptionAdmin(admin.ModelAdmin):
             self.model._meta.get_field('published')
             self.actions.append(make_published)
             self.actions.append(make_unpublished)
-        except:
+        except FieldDoesNotExist:
             pass
 
         return super(ExtraOptionAdmin, self).get_actions(request)
